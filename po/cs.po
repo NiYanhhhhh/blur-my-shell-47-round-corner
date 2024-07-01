@@ -1,0 +1,582 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the blur-my-shell@aunetx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blur-my-shell@aunetx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-02 02:53+0100\n"
+"PO-Revision-Date: 2022-10-10 17:59+0000\n"
+"Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/blur-my-shell/blur-"
+"my-shell/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#: applications.ui:5
+msgid "Applications"
+msgstr "Aplikace"
+
+#: applications.ui:10
+msgid "Applications blur (beta)"
+msgstr "Rozostření aplikací (beta)"
+
+#: applications.ui:11
+msgid ""
+"Adds blur to the applications. This is still beta functionality.\n"
+"To get the best results possible, make sure to choose the option “No "
+"artifact” in the “General → Hack level” preference.\n"
+"        "
+msgstr ""
+"Přidá do aplikací rozmazání. Jedná se stále o funkci beta.\n"
+"Chcete-li dosáhnout co nejlepších výsledků, nezapomeňte v předvolbách "
+"\"Obecné → Úroveň hacku\" vybrat možnost \"Bez artefaktu\".\n"
+"        "
+
+#: applications.ui:28
+msgid "Opacity"
+msgstr "Neprůhlednost"
+
+#: applications.ui:29
+msgid ""
+"The opacity of the window on top of the blur effect, a higher value will be "
+"more legible."
+msgstr ""
+"Neprůhlednost okna v horní části efektu rozmazání, vyšší hodnota bude "
+"čitelnější."
+
+#: applications.ui:51
+msgid "Blur on overview"
+msgstr "Rozostření v přehledu"
+
+#: applications.ui:52
+msgid ""
+"Forces the blur to be properly shown on all workspaces on overview.\n"
+"This may cause some latency or performance issues."
+msgstr ""
+"Vynutí správné zobrazení rozmazání na všech pracovních plochách v přehledu.\n"
+"To může způsobit určité zpoždění nebo problémy s výkonem."
+
+#: applications.ui:67
+msgid "Enable all by default"
+msgstr "Ve výchozím nastavení povolit vše"
+
+#: applications.ui:68
+msgid ""
+"Adds blur behind all windows by default.\n"
+"Not recommended because of performance and stability issues."
+msgstr ""
+"Ve výchozím nastavení přidá rozmazání za všechna okna.\n"
+"Nedoporučuje se kvůli problémům s výkonem a stabilitou."
+
+#: applications.ui:85
+msgid "Whitelist"
+msgstr "Seznam povolených"
+
+#: applications.ui:86
+msgid "A list of windows to blur."
+msgstr "Seznam oken k rozmazání."
+
+#: applications.ui:104 applications.ui:141
+msgid "Add Window"
+msgstr "Přidat okno"
+
+#: applications.ui:122
+msgid "Blacklist"
+msgstr "Černá listina"
+
+#: applications.ui:123
+msgid "A list of windows not to blur."
+msgstr "Seznam oken, která se nemají rozmazávat."
+
+#: customize-row.ui:4
+msgid "Customize properties"
+msgstr "Přizpůsobit vlastnosti"
+
+#: customize-row.ui:5
+msgid ""
+"Uses customized blur properties, instead of the ones set in the General page."
+msgstr ""
+"Používá vlastní vlastnosti rozmazání namísto vlastností nastavených na "
+"stránce Obecné."
+
+#: customize-row.ui:10 general.ui:15
+msgid "Sigma"
+msgstr "Sigma"
+
+#: customize-row.ui:11 general.ui:16
+msgid "The intensity of the blur."
+msgstr "Intenzita rozmazání."
+
+#: customize-row.ui:31 general.ui:35
+msgid "Brightness"
+msgstr "Jas"
+
+#: customize-row.ui:32 general.ui:36
+msgid ""
+"The brightness of the blur effect, a high value might make the text harder "
+"to read."
+msgstr ""
+"Jas efektu rozmazání, vysoká hodnota může způsobit, že text bude hůře "
+"čitelný."
+
+#: customize-row.ui:52 general.ui:55
+msgid "Color"
+msgstr "Barva"
+
+#: customize-row.ui:53 general.ui:56
+msgid ""
+"Changes the color of the blur. The opacity of the color controls how much it "
+"is blended into the blur effect."
+msgstr ""
+"Změní barvu rozmazání. Neprůhlednost barvy určuje, jak moc se barva prolne "
+"do efektu rozmazání."
+
+#: customize-row.ui:71 general.ui:73
+msgid "Noise amount"
+msgstr "Množství hluku"
+
+#: customize-row.ui:72 general.ui:74
+msgid ""
+"The amount of noise to add to the blur effect, useful on low-contrast "
+"screens or for aesthetic purpose."
+msgstr ""
+"Množství šumu, které se přidá k efektu rozmazání, užitečné na obrazovkách s "
+"nízkým kontrastem nebo pro estetické účely."
+
+#: customize-row.ui:92 general.ui:94
+msgid "Noise lightness"
+msgstr "Lehkost šumu"
+
+#: customize-row.ui:93 general.ui:95
+msgid "The lightness of the noise added to the blur effect."
+msgstr "Lehkost šumu přispěla k efektu rozmazání."
+
+#: customize-row.ui:113
+msgid "Notice"
+msgstr "Oznámení"
+
+#: customize-row.ui:114
+msgid ""
+"Noise and color can't be activated on dynamically blurred components, such "
+"as this one."
+msgstr ""
+"Šum a barvu nelze aktivovat u dynamicky rozmazaných komponent, jako je tato."
+
+#: dash.ui:5
+msgid "Dash"
+msgstr "Dash"
+
+#: dash.ui:10
+msgid "Dash to Dock blur"
+msgstr "Dash do rozmazaného doku"
+
+#: dash.ui:11
+msgid "Blur the background of the Dash to Dock extension, if it is used."
+msgstr "Rozmazat pozadí rozšíření Dash to Dock, pokud je použito."
+
+#: dash.ui:26 panel.ui:56
+msgid "Override background"
+msgstr "Přepsat pozadí"
+
+#: dash.ui:27
+msgid ""
+"Makes the background either transparent or semi-transparent, disable this to "
+"use Dash to Dock preferences instead."
+msgstr ""
+"Nastaví pozadí jako průhledné nebo poloprůhledné, pokud chcete místo toho "
+"použít předvolby Dash to Dock, zakažte tuto funkci."
+
+#: dash.ui:33 panel.ui:64
+msgid "Background style"
+msgstr "Styl pozadí"
+
+#: dash.ui:34
+msgid "The transparent/semi-transparent style for the dock background."
+msgstr "Průhledný/poloprůhledný styl pozadí doku."
+
+#: dash.ui:50 panel.ui:41
+msgid "Disable in overview"
+msgstr "Zakázat v přehledu"
+
+#: dash.ui:51
+msgid "Disables the blur from Dash to Dock when entering the overview."
+msgstr "Zakáže rozmazání z Dashe do doku při vstupu do přehledu."
+
+#: dash.ui:68 overview.ui:82 overview.ui:89 panel.ui:121
+msgid "Transparent"
+msgstr "Transparentní"
+
+#: dash.ui:69 overview.ui:80 overview.ui:90 panel.ui:122
+msgid "Light"
+msgstr "Světlý"
+
+#: dash.ui:70 overview.ui:81 overview.ui:91 panel.ui:123
+msgid "Dark"
+msgstr "Tmavý"
+
+#: general.ui:5
+msgid "General"
+msgstr "Obecné"
+
+#: general.ui:10
+msgid "Blur preferences"
+msgstr "Předvolby rozmazání"
+
+#: general.ui:11
+msgid "Global blur preferences, used by all components by default."
+msgstr ""
+"Globální předvolby rozmazání, které ve výchozím nastavení používají všechny "
+"komponenty."
+
+#: general.ui:117
+msgid "Performance"
+msgstr "Výkon"
+
+#: general.ui:118
+msgid "Various options to tweak the performance."
+msgstr "Různé možnosti nastavení výkonu."
+
+#: general.ui:122
+msgid "Color and noise effects"
+msgstr "Barevné a šumové efekty"
+
+#: general.ui:123
+msgid ""
+"Globally disables noise and color effects which may improve performance on "
+"low-end systems."
+msgstr ""
+"Globálně vypne efekty šumu a barev, což může zlepšit výkon na low-endových "
+"systémech."
+
+#: general.ui:135
+msgid "Hack level"
+msgstr "Úroveň hackování"
+
+#: general.ui:136
+msgid ""
+"Changes the behaviour of the dynamic blur effect.\n"
+"The default value is highly recommended unless you use application blur, in "
+"which case “No artifact” is better.\n"
+"This option will entirely disable clipped redraws in GNOME shell, and may "
+"impact performance significantly but will completely fix the blur effect."
+msgstr ""
+"Změní chování efektu dynamického rozostření.\n"
+"Výchozí hodnota je velmi doporučována, pokud nepoužíváte rozostření "
+"aplikací, v takovém případě je lepší volba \"Bez artefaktu\".\n"
+"Tato volba zcela zakáže oříznuté překreslování v prostředí GNOME shell a "
+"může mít značný dopad na výkon, ale zcela vyřeší efekt rozmazání."
+
+#: general.ui:151
+msgid "Debug"
+msgstr "Ladit"
+
+#: general.ui:152
+msgid ""
+"Makes the extension verbose in logs, activate when you need to report an "
+"issue."
+msgstr ""
+"Rozšíření se v protokolech zobrazí jako slovní, aktivuje se, když "
+"potřebujete nahlásit problém."
+
+#: general.ui:167
+msgid "Reset preferences"
+msgstr "Resetovat předvolby"
+
+#: general.ui:168
+msgid "Resets preferences of Blur my Shell irreversibly."
+msgstr "Nevratně resetuje předvolby Blur my Shell."
+
+#: general.ui:187
+msgid "Reset"
+msgstr "Resetovat"
+
+#: general.ui:228
+msgid "High performances"
+msgstr "Vysoké výkony"
+
+#: general.ui:229
+msgid "Default"
+msgstr "Výchozí"
+
+#: general.ui:230
+msgid "High quality"
+msgstr "Vysoká kvalita"
+
+#: general.ui:231
+msgid "No artifact"
+msgstr "Žádný artefakt"
+
+#: menu.ui:6
+msgid "Project page"
+msgstr "Stránka projektu"
+
+#: menu.ui:10
+msgid "Report a Bug"
+msgstr "Nahlásit chybu"
+
+#: menu.ui:14
+msgid "License"
+msgstr "Licence"
+
+#: menu.ui:18
+msgid "Donate"
+msgstr "Podpořit"
+
+#: other.ui:5
+msgid "Other"
+msgstr "Jiné"
+
+#: other.ui:10
+msgid "Lockscreen blur"
+msgstr "Rozmazání zamykací obrazovky"
+
+#: other.ui:11
+msgid "Change the blur of the lockscreen to use this extension's preferences."
+msgstr ""
+"Změňte rozmazání zamykací obrazovky tak, aby používala předvolby tohoto "
+"rozšíření."
+
+#: other.ui:28
+msgid "Screenshot blur"
+msgstr "Rozmazání snímku obrazovky"
+
+#: other.ui:29
+msgid "Add blur to the background of the window selector in the screenshot UI."
+msgstr ""
+"Přidejte rozostření pozadí voliče oken v uživatelském rozhraní snímku "
+"obrazovky."
+
+#: other.ui:46
+msgid "Window list extension blur"
+msgstr "Rozmazání rozšíření seznamu oken"
+
+#: other.ui:47
+msgid "Make the window-list extension blurred, if it is used."
+msgstr "Rozmazat rozšíření seznamu oken, pokud je použito."
+
+#: overview.ui:5
+msgid "Overview"
+msgstr "Přehled"
+
+#: overview.ui:10
+msgid "Background blur"
+msgstr "Rozmazání pozadí"
+
+#: overview.ui:11
+msgid "Add blur to the overview background, using the wallpaper picture."
+msgstr "Přidejte rozmazání pozadí přehledu pomocí obrázku tapety."
+
+#: overview.ui:26
+msgid "Overview components style"
+msgstr "Přehled stylu komponent"
+
+#: overview.ui:27
+msgid ""
+"The semi-transparent style for the dash, search entry/results, and "
+"application folders."
+msgstr ""
+"Poloprůhledný styl pro pomlčku, položku/výsledky vyhledávání a složky "
+"aplikací."
+
+#: overview.ui:44
+msgid "Application folder blur"
+msgstr "Rozmazání složky aplikace"
+
+#: overview.ui:45
+msgid "Makes the background of application folder dialogs blurred."
+msgstr "Rozostří pozadí dialogových oken složek aplikací."
+
+#: overview.ui:60
+msgid "Application folder dialogs style"
+msgstr "Styl dialogových oken složek aplikací"
+
+#: overview.ui:61
+msgid "The semi-transparent style for the application folder dialogs."
+msgstr "Poloprůhledný styl pro dialogová okna složek aplikací."
+
+#: overview.ui:79 overview.ui:88
+msgid "Do not style"
+msgstr "Nestylizujte"
+
+#: panel.ui:5
+msgid "Panel"
+msgstr "Panel"
+
+#: panel.ui:10
+msgid "Panel blur"
+msgstr "Rozmazání panelu"
+
+#: panel.ui:11
+msgid "Blur the top panel using the background image."
+msgstr "Rozmazání horního obrazu pomocí obrázku na pozadí."
+
+#: panel.ui:26
+msgid "Static blur"
+msgstr "Statické rozmazání"
+
+#: panel.ui:27
+msgid "Uses a static blurred image, more performant and stable."
+msgstr "Používá statický rozmazaný obraz, je výkonnější a stabilnější."
+
+#: panel.ui:42
+msgid "Disables the blur from the panel when entering the overview."
+msgstr "Zakáže rozmazání panelu při vstupu do přehledu."
+
+#: panel.ui:57
+msgid ""
+"Override the background of the panel to use a transparent or semi-"
+"transparent one.\n"
+"Recommended unless you want to customize your GNOME theme."
+msgstr ""
+"Přepište pozadí panelu tak, aby bylo průhledné nebo poloprůhledné.\n"
+"Doporučujeme, pokud si nechcete přizpůsobit téma GNOME."
+
+#: panel.ui:65
+msgid "The transparent/semi-transparent style for the panel background."
+msgstr "Průhledný/poloprůhledný styl pozadí panelu."
+
+#: panel.ui:79
+msgid "Disable when a window is near"
+msgstr "Zakázat, když je okno v blízkosti"
+
+#: panel.ui:80
+msgid "Disables the transparency of the panel when a window is near it."
+msgstr "Zakáže průhlednost panelu, pokud se v jeho blízkosti nachází okno."
+
+#: panel.ui:97
+msgid "Compatibility"
+msgstr "Kompatibilita"
+
+#: panel.ui:98
+msgid "Various options to provide compatibility with other extensions."
+msgstr "Různé možnosti pro zajištění kompatibility s jinými rozšířeními."
+
+#: panel.ui:103
+msgid "Hidetopbar extension"
+msgstr "Rozšíření Skrýt horní lištu"
+
+#: panel.ui:104
+msgid "Does not disable the blur in overview, best used with static blur."
+msgstr ""
+"Nevypíná rozostření v přehledu, nejlépe se používá se statickým rozostřením."
+
+#: window-row.ui:4
+msgid "Window Name"
+msgstr "Název okna"
+
+#: window-row.ui:8
+msgid "Select window"
+msgstr "Vybrat okno"
+
+#: window-row.ui:9
+msgid "Pick a window or select it by its classname."
+msgstr "Vyberte okno nebo jej vyberte podle názvu třídy."
+
+#~ msgid ""
+#~ "Add blur to the applications. This is still a beta functionnality.\n"
+#~ "To get the best results possible, make sure to choose option “No "
+#~ "artefact” in the “General → Hack level” preference.\n"
+#~ "        "
+#~ msgstr ""
+#~ "Přidejte do aplikací rozostření. Jedná se stále beta funkci.\n"
+#~ "Chcete-li získat co nejlepší výsledky, vyberte možnost „Žádný artefakt“ v "
+#~ "předvolbě „Obecné → Úroveň hackování“.\n"
+#~ "        "
+
+#~ msgid ""
+#~ "Makes the background semi-transparent, disable this to use Dash to Dock "
+#~ "preferences instead."
+#~ msgstr ""
+#~ "Vytvoří poloprůhledné pozadí, pokud chcete místo toho použít předvolby "
+#~ "Dash to Dock, zakažte tuto funkci."
+
+#~ msgid "Performances"
+#~ msgstr "Představení"
+
+#~ msgid "Various options to tweak the performances."
+#~ msgstr "Různé možnosti nastavení výkonů."
+
+#~ msgid ""
+#~ "Permits to disable globally the use of noise and color effects, this may "
+#~ "improve performances for low-end graphic."
+#~ msgstr ""
+#~ "Umožňuje globálně zakázat použití šumu a barevných efektů, což může "
+#~ "zlepšit výkon u grafiky nižší třídy."
+
+#~ msgid ""
+#~ "Changes the behaviour of dynamic blur effect.\n"
+#~ "Default value is very recommended, unless you use application blur in "
+#~ "which case “No artefact” is better.\n"
+#~ "This option will entirely disable clipped redraws from GNOME shell, and "
+#~ "may impact performances significantly but will entirely fix the blur "
+#~ "effect."
+#~ msgstr ""
+#~ "Změní chování efektu dynamického rozostření.\n"
+#~ "Výchozí hodnota je velmi doporučená, pokud nepoužíváte aplikační "
+#~ "rozostření, v takovém případě je lepší \"Bez artefaktu\".\n"
+#~ "Tato volba zcela zakáže oříznuté překreslování ze shellu GNOME a může mít "
+#~ "značný dopad na výkon, ale zcela opraví efekt rozmazání."
+
+#~ msgid "No artefact"
+#~ msgstr "Žádný artefakt"
+
+#~ msgid ""
+#~ "The semi-transparent style for the dash, search entry/results, and "
+#~ "applications folders."
+#~ msgstr ""
+#~ "Poloprůhledný styl pro Dash, položku/výsledky vyhledávání a složky "
+#~ "aplikací."
+
+#~ msgid "Applications folder blur"
+#~ msgstr "Rozmazání složky s aplikacemi"
+
+#~ msgid "Makes the background of folder icons blurred."
+#~ msgstr "Rozostří pozadí ikon složek."
+
+#~ msgid "Dialog opacity"
+#~ msgstr "Neprůhlednost dialogu"
+
+#~ msgid "The opacity of the applications folder popup."
+#~ msgstr "Neprůhlednost vyskakovacího okna složky s aplikacemi."
+
+#~ msgid ""
+#~ "Override the background of the panel to use a transparent one.\n"
+#~ "Recommended unless you want to customize your GNOME theme."
+#~ msgstr ""
+#~ "Přepište pozadí panelu na průhledné.\n"
+#~ "Doporučujeme, pokud si nechcete přizpůsobit téma GNOME."
+
+#~ msgid ""
+#~ "Add blur to the applications. This is still a beta functionnality, is "
+#~ "quite buggy and is only applied to the apps that ask it, or to the ones "
+#~ "set in the whitelist below."
+#~ msgstr ""
+#~ "Přidejte do aplikací rozmazání pozadí. Toto je stále beta funkce, je "
+#~ "poměrně chybová a vztahuje se pouze na aplikace, které to vyžadují, nebo "
+#~ "na ty, které jsou nastaveny v seznamu povolených níže."
+
+#~ msgid ""
+#~ "Changes the behaviour of dynamic blur effect. Default value is very "
+#~ "recommended."
+#~ msgstr ""
+#~ "Změní chování efektu dynamického rozostření. Výchozí hodnota je velmi "
+#~ "doporučená."
+
+#~ msgid "Disables the blur from the panel when a window is near it."
+#~ msgstr "Zakáže rozmazání obrazu, když je v jeho blízkosti okno."
+
+#~ msgid ""
+#~ "A list of the applications to blur, one per line. To get an application "
+#~ "class name, under xorg you can use `xprop|grep WM_CLASS` and paste the "
+#~ "last name here."
+#~ msgstr ""
+#~ "Seznam aplikací, které mají být rozmazané, po jedné na řádek. Chcete-li "
+#~ "získat název třídy aplikace, můžete pod xorg použít příkaz `xprop|grep "
+#~ "WM_CLASS` a vložit sem poslední název."

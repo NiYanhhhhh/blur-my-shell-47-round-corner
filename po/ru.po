@@ -1,0 +1,595 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the blur-my-shell@aunetx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blur-my-shell@aunetx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-02 02:53+0100\n"
+"PO-Revision-Date: 2022-10-01 20:58+0300\n"
+"Last-Translator: Aleksandr Melman <Alexmelman88@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: applications.ui:5
+msgid "Applications"
+msgstr "Приложения"
+
+#: applications.ui:10
+msgid "Applications blur (beta)"
+msgstr "Размытие приложений (бета)"
+
+#: applications.ui:11
+msgid ""
+"Adds blur to the applications. This is still beta functionality.\n"
+"To get the best results possible, make sure to choose the option “No "
+"artifact” in the “General → Hack level” preference.\n"
+"        "
+msgstr ""
+"Добавляет размытие к приложениям. Это все еще бета-версия функции.\n"
+"Чтобы получить наилучшие результаты, убедитесь, что выбрали опцию \"Без "
+"артефактов\" в настройках \"Общие → Уровень взлома\".\n"
+"        "
+
+#: applications.ui:28
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: applications.ui:29
+msgid ""
+"The opacity of the window on top of the blur effect, a higher value will be "
+"more legible."
+msgstr ""
+"Непрозрачность окна поверх эффекта размытия, более высокое значение будет "
+"более четким."
+
+#: applications.ui:51
+msgid "Blur on overview"
+msgstr "Размытие в Обзоре"
+
+#: applications.ui:52
+msgid ""
+"Forces the blur to be properly shown on all workspaces on overview.\n"
+"This may cause some latency or performance issues."
+msgstr ""
+"Заставляет размытие правильно отображаться на всех рабочих столах в Обзоре.\n"
+"Это может вызвать некоторые задержки или проблемы с производительностью."
+
+#: applications.ui:67
+msgid "Enable all by default"
+msgstr "Включить для всех по умолчанию"
+
+#: applications.ui:68
+msgid ""
+"Adds blur behind all windows by default.\n"
+"Not recommended because of performance and stability issues."
+msgstr ""
+"По умолчанию добавляет размытие для всех окон.\n"
+"Не рекомендуется из-за проблем с производительностью и стабильностью."
+
+#: applications.ui:85
+msgid "Whitelist"
+msgstr "Белый список"
+
+#: applications.ui:86
+msgid "A list of windows to blur."
+msgstr "Список окон для размытия."
+
+#: applications.ui:104 applications.ui:141
+msgid "Add Window"
+msgstr "Добавить окно"
+
+#: applications.ui:122
+msgid "Blacklist"
+msgstr "Черный список"
+
+#: applications.ui:123
+msgid "A list of windows not to blur."
+msgstr "Список окон, которые не нужно размывать."
+
+#: customize-row.ui:4
+msgid "Customize properties"
+msgstr "Настройка свойств"
+
+#: customize-row.ui:5
+msgid ""
+"Uses customized blur properties, instead of the ones set in the General page."
+msgstr ""
+"Использовать пользовательские свойства размытия вместо тех, которые заданы "
+"на странице Общие."
+
+#: customize-row.ui:10 general.ui:15
+msgid "Sigma"
+msgstr "Сигма"
+
+#: customize-row.ui:11 general.ui:16
+msgid "The intensity of the blur."
+msgstr "Интенсивность размытия."
+
+#: customize-row.ui:31 general.ui:35
+msgid "Brightness"
+msgstr "Яркость"
+
+#: customize-row.ui:32 general.ui:36
+msgid ""
+"The brightness of the blur effect, a high value might make the text harder "
+"to read."
+msgstr ""
+"Яркость эффекта размытия, высокое значение может сделать текст "
+"трудночитаемым."
+
+#: customize-row.ui:52 general.ui:55
+msgid "Color"
+msgstr "Цвет"
+
+#: customize-row.ui:53 general.ui:56
+msgid ""
+"Changes the color of the blur. The opacity of the color controls how much it "
+"is blended into the blur effect."
+msgstr ""
+"Изменяет цвет размытия. Непрозрачность цвета определяет, насколько он "
+"смешивается с эффектом размытия."
+
+#: customize-row.ui:71 general.ui:73
+msgid "Noise amount"
+msgstr "Уровень шума"
+
+#: customize-row.ui:72 general.ui:74
+msgid ""
+"The amount of noise to add to the blur effect, useful on low-contrast "
+"screens or for aesthetic purpose."
+msgstr ""
+"Уровень шума, добавляемый к эффекту размытия, полезен на экранах с низкой "
+"контрастностью или в эстетических целях."
+
+#: customize-row.ui:92 general.ui:94
+msgid "Noise lightness"
+msgstr "Светлота шума"
+
+#: customize-row.ui:93 general.ui:95
+msgid "The lightness of the noise added to the blur effect."
+msgstr "Светлота шума усиливает эффект размытия."
+
+#: customize-row.ui:113
+msgid "Notice"
+msgstr "Уведомление"
+
+#: customize-row.ui:114
+msgid ""
+"Noise and color can't be activated on dynamically blurred components, such "
+"as this one."
+msgstr ""
+"Шум и цвет не могут быть активированы на динамически размытых компонентах, "
+"таких как этот."
+
+#: dash.ui:5
+msgid "Dash"
+msgstr "Панель приложений"
+
+#: dash.ui:10
+msgid "Dash to Dock blur"
+msgstr "Размытие \"Dash to Dock\""
+
+#: dash.ui:11
+msgid "Blur the background of the Dash to Dock extension, if it is used."
+msgstr "Размытие фона расширения Dash to Dock, если оно используется."
+
+#: dash.ui:26 panel.ui:56
+msgid "Override background"
+msgstr "Переопределить фон"
+
+#: dash.ui:27
+msgid ""
+"Makes the background either transparent or semi-transparent, disable this to "
+"use Dash to Dock preferences instead."
+msgstr ""
+"Делает фон прозрачным или полупрозрачным, отключите его, чтобы вместо него "
+"использовать настройки Dash to Dock."
+
+#: dash.ui:33 panel.ui:64
+msgid "Background style"
+msgstr "Стиль фона"
+
+#: dash.ui:34
+msgid "The transparent/semi-transparent style for the dock background."
+msgstr "Прозрачный/полупрозрачный стиль для фона панели приложений."
+
+#: dash.ui:50 panel.ui:41
+msgid "Disable in overview"
+msgstr "Отключить в Обзоре"
+
+#: dash.ui:51
+msgid "Disables the blur from Dash to Dock when entering the overview."
+msgstr "Отключает размытие из Dash to Dock при входе в Обзор."
+
+#: dash.ui:68 overview.ui:82 overview.ui:89 panel.ui:121
+msgid "Transparent"
+msgstr "Прозрачный"
+
+#: dash.ui:69 overview.ui:80 overview.ui:90 panel.ui:122
+msgid "Light"
+msgstr "Светлый"
+
+#: dash.ui:70 overview.ui:81 overview.ui:91 panel.ui:123
+msgid "Dark"
+msgstr "Темный"
+
+#: general.ui:5
+msgid "General"
+msgstr "Общие"
+
+#: general.ui:10
+msgid "Blur preferences"
+msgstr "Параметры размытия"
+
+#: general.ui:11
+msgid "Global blur preferences, used by all components by default."
+msgstr ""
+"Глобальные настройки размытия, используемые всеми компонентами по умолчанию."
+
+#: general.ui:117
+msgid "Performance"
+msgstr "Производительность"
+
+#: general.ui:118
+msgid "Various options to tweak the performance."
+msgstr "Различные опции для настройки производительности."
+
+#: general.ui:122
+msgid "Color and noise effects"
+msgstr "Цветовые и шумовые эффекты"
+
+#: general.ui:123
+msgid ""
+"Globally disables noise and color effects which may improve performance on "
+"low-end systems."
+msgstr ""
+"Глобально отключает шумовые и цветовые эффекты, что может повысить "
+"производительность на системах низкого класса."
+
+#: general.ui:135
+msgid "Hack level"
+msgstr "Уровень взлома"
+
+#: general.ui:136
+msgid ""
+"Changes the behaviour of the dynamic blur effect.\n"
+"The default value is highly recommended unless you use application blur, in "
+"which case “No artifact” is better.\n"
+"This option will entirely disable clipped redraws in GNOME shell, and may "
+"impact performance significantly but will completely fix the blur effect."
+msgstr ""
+"Изменяет поведение эффекта динамического размытия.\n"
+"Настоятельно рекомендуется использовать значение по умолчанию, если вы не "
+"используете размытие приложений, в противном случае лучше выбрать значение "
+"\"Без артефактов\".\n"
+"Эта опция полностью отключает обрезанные перерисовки в оболочке GNOME, что "
+"может значительно повлиять на производительность, но полностью исправляет "
+"эффект размытия."
+
+#: general.ui:151
+msgid "Debug"
+msgstr "Отладка"
+
+#: general.ui:152
+msgid ""
+"Makes the extension verbose in logs, activate when you need to report an "
+"issue."
+msgstr ""
+"Делает работу расширения подробной в журналах, активируется, когда вам нужно "
+"сообщить о проблеме."
+
+#: general.ui:167
+msgid "Reset preferences"
+msgstr "Сброс настроек"
+
+#: general.ui:168
+msgid "Resets preferences of Blur my Shell irreversibly."
+msgstr "Необратимо сбрасывает настройки Blur my Shell."
+
+#: general.ui:187
+msgid "Reset"
+msgstr "Сбросить"
+
+#: general.ui:228
+msgid "High performances"
+msgstr "Высокая производительность"
+
+#: general.ui:229
+msgid "Default"
+msgstr "По умолчанию"
+
+#: general.ui:230
+msgid "High quality"
+msgstr "Высокое качество"
+
+#: general.ui:231
+msgid "No artifact"
+msgstr "Без артефактов"
+
+#: menu.ui:6
+msgid "Project page"
+msgstr "Страница проекта"
+
+#: menu.ui:10
+msgid "Report a Bug"
+msgstr "Сообщить об ошибке"
+
+#: menu.ui:14
+msgid "License"
+msgstr "Лицензия"
+
+#: menu.ui:18
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: other.ui:5
+msgid "Other"
+msgstr "Прочее"
+
+#: other.ui:10
+msgid "Lockscreen blur"
+msgstr "Размытие экрана блокировки"
+
+#: other.ui:11
+msgid "Change the blur of the lockscreen to use this extension's preferences."
+msgstr ""
+"Использовать настройки этого расширения для изменения размытия экрана "
+"блокировки."
+
+#: other.ui:28
+msgid "Screenshot blur"
+msgstr "Размытие при PrintScreen"
+
+#: other.ui:29
+msgid "Add blur to the background of the window selector in the screenshot UI."
+msgstr ""
+"Добавляет размытие к фону выбора окна в пользовательском интерфейсе "
+"скриншотов."
+
+#: other.ui:46
+msgid "Window list extension blur"
+msgstr "Размытие расширения \"Window List\""
+
+#: other.ui:47
+msgid "Make the window-list extension blurred, if it is used."
+msgstr "Делает расширение Window List размытым, если оно используется."
+
+#: overview.ui:5
+msgid "Overview"
+msgstr "Обзор"
+
+#: overview.ui:10
+msgid "Background blur"
+msgstr "Размытие фона"
+
+#: overview.ui:11
+msgid "Add blur to the overview background, using the wallpaper picture."
+msgstr "Добавляет размытие к фону Обзора, используя картинку обоев."
+
+#: overview.ui:26
+msgid "Overview components style"
+msgstr "Стилизация компонентов Обзора"
+
+#: overview.ui:27
+msgid ""
+"The semi-transparent style for the dash, search entry/results, and "
+"application folders."
+msgstr "Полупрозрачный стиль для панели приложений, поиска и папок приложений."
+
+#: overview.ui:44
+msgid "Application folder blur"
+msgstr "Размытие папки приложений"
+
+#: overview.ui:45
+msgid "Makes the background of application folder dialogs blurred."
+msgstr "Делает фон диалоговых окон папок приложений размытым."
+
+#: overview.ui:60
+msgid "Application folder dialogs style"
+msgstr "Стиль диалоговых окон папок приложений"
+
+#: overview.ui:61
+msgid "The semi-transparent style for the application folder dialogs."
+msgstr "Полупрозрачный стиль для диалоговых окон папок приложений."
+
+#: overview.ui:79 overview.ui:88
+msgid "Do not style"
+msgstr "Не стилизовать"
+
+#: panel.ui:5
+msgid "Panel"
+msgstr "Верхняя панель"
+
+#: panel.ui:10
+msgid "Panel blur"
+msgstr "Размытие верхней панели"
+
+#: panel.ui:11
+msgid "Blur the top panel using the background image."
+msgstr "Размытие верхней панели с помощью фонового изображения."
+
+#: panel.ui:26
+msgid "Static blur"
+msgstr "Статичное размытие"
+
+#: panel.ui:27
+msgid "Uses a static blurred image, more performant and stable."
+msgstr ""
+"Используется статичное размытие изображения, более производительное и "
+"стабильное."
+
+#: panel.ui:42
+msgid "Disables the blur from the panel when entering the overview."
+msgstr "Отключает размытие верхней панели при входе в Обзор."
+
+#: panel.ui:57
+msgid ""
+"Override the background of the panel to use a transparent or semi-"
+"transparent one.\n"
+"Recommended unless you want to customize your GNOME theme."
+msgstr ""
+"Переопределяет фон верхней панели, чтобы использовать прозрачный или "
+"полупрозрачный фон.\n"
+"Рекомендуется, если вы не хотите настраивать тему GNOME."
+
+#: panel.ui:65
+msgid "The transparent/semi-transparent style for the panel background."
+msgstr "Прозрачный/полупрозрачный стиль для фона верхней панели."
+
+#: panel.ui:79
+msgid "Disable when a window is near"
+msgstr "Отключить, когда рядом находится окно"
+
+#: panel.ui:80
+msgid "Disables the transparency of the panel when a window is near it."
+msgstr ""
+"Отключает прозрачность верхней панели, когда рядом с ней находится окно."
+
+#: panel.ui:97
+msgid "Compatibility"
+msgstr "Совместимость"
+
+#: panel.ui:98
+msgid "Various options to provide compatibility with other extensions."
+msgstr "Различные опции для обеспечения совместимости с другими расширениями."
+
+#: panel.ui:103
+msgid "Hidetopbar extension"
+msgstr "Расширение \"Hidetopbar\""
+
+#: panel.ui:104
+msgid "Does not disable the blur in overview, best used with static blur."
+msgstr ""
+"Не отключает размытие в Обзоре, лучше всего использовать со статическим "
+"размытием."
+
+#: window-row.ui:4
+msgid "Window Name"
+msgstr "Название окна"
+
+#: window-row.ui:8
+msgid "Select window"
+msgstr "Выбрать окно"
+
+#: window-row.ui:9
+msgid "Pick a window or select it by its classname."
+msgstr "Выберите окно или выделите его по имени класса."
+
+#~ msgid ""
+#~ "Add blur to the applications. This is still a beta functionnality.\n"
+#~ "To get the best results possible, make sure to choose option “No "
+#~ "artefact” in the “General → Hack level” preference.\n"
+#~ "        "
+#~ msgstr ""
+#~ "Добавляет размытие к приложениям. Это все еще бета-функционал.\n"
+#~ "Чтобы получить наилучшие результаты, убедитесь, что выбрали опцию \"Без "
+#~ "артефактов\" в настройке \"Общие → Уровень взлома\".\n"
+#~ "        "
+
+#~ msgid ""
+#~ "Makes the background semi-transparent, disable this to use Dash to Dock "
+#~ "preferences instead."
+#~ msgstr ""
+#~ "Делает фон полупрозрачным, отключите его, чтобы вместо него использовать "
+#~ "настройки Dash to Dock."
+
+#~ msgid "Performances"
+#~ msgstr "Производительность"
+
+#~ msgid "Various options to tweak the performances."
+#~ msgstr "Различные опции для настройки производительности."
+
+#~ msgid ""
+#~ "Permits to disable globally the use of noise and color effects, this may "
+#~ "improve performances for low-end graphic."
+#~ msgstr ""
+#~ "Позволяют глобально отключить использование шумовых и цветовых эффектов, "
+#~ "это может улучшить производительность для графики низкого уровня."
+
+#~ msgid ""
+#~ "Changes the behaviour of dynamic blur effect.\n"
+#~ "Default value is very recommended, unless you use application blur in "
+#~ "which case “No artefact” is better.\n"
+#~ "This option will entirely disable clipped redraws from GNOME shell, and "
+#~ "may impact performances significantly but will entirely fix the blur "
+#~ "effect."
+#~ msgstr ""
+#~ "Изменяет поведение эффекта динамического размытия.\n"
+#~ "Значение по умолчанию очень рекомендуется, если только вы не используете "
+#~ "размытие приложений, в этом случае лучше выбрать \"Без артефактов\".\n"
+#~ "Эта опция полностью отключает обрезанные перерисовки из оболочки GNOME, "
+#~ "что может значительно повлиять на производительность, но полностью "
+#~ "исправляет эффект размытия."
+
+#~ msgid "No artefact"
+#~ msgstr "Без артефактов"
+
+#~ msgid ""
+#~ "The semi-transparent style for the dash, search entry/results, and "
+#~ "applications folders."
+#~ msgstr ""
+#~ "Делает панель приложений, поиск и значок папки приложений полупрозрачными."
+
+#~ msgid "Applications folder blur"
+#~ msgstr "Размытие папки приложений"
+
+#~ msgid "Makes the background of folder icons blurred."
+#~ msgstr "Делает фон значков папок размытым."
+
+#~ msgid "Dialog opacity"
+#~ msgstr "Непрозрачность диалогового окна"
+
+#~ msgid "The opacity of the applications folder popup."
+#~ msgstr "Непрозрачность всплывающего окна папки приложений."
+
+#~ msgid ""
+#~ "Override the background of the panel to use a transparent one.\n"
+#~ "Recommended unless you want to customize your GNOME theme."
+#~ msgstr ""
+#~ "Переопределяет фон верхней панели, чтобы использовать прозрачный фон.\n"
+#~ "Рекомендуется, если вы не хотите настраивать тему GNOME."
+
+#~ msgid ""
+#~ "Add blur to the applications. This is still a beta functionnality, is "
+#~ "quite buggy and is only applied to the apps that ask it, or to the ones "
+#~ "set in the whitelist below."
+#~ msgstr ""
+#~ "Добавляет размытие приложений. Это пока бета-функция, она довольно "
+#~ "глючная и применяется только к тем приложениям, которые просят об этом, "
+#~ "или к тем, которые заданы в белом списке ниже."
+
+#~ msgid ""
+#~ "Adds blur behind all windows by default. Not recommended because of "
+#~ "performance and stability issues."
+#~ msgstr ""
+#~ "По умолчанию добавляет размытие для всех окон. Не рекомендуется из-за "
+#~ "проблем с производительностью и стабильностью."
+
+#~ msgid ""
+#~ "Changes the behaviour of dynamic blur effect. Default value is very "
+#~ "recommended."
+#~ msgstr ""
+#~ "Изменяет поведение эффекта динамического размытия. Значение по умолчанию "
+#~ "является очень рекомендуемым."
+
+#~ msgid "Disables the blur from the panel when a window is near it."
+#~ msgstr ""
+#~ "Отключает размытие верхней панели, когда рядом с ней находится окно."
+
+#~ msgid ""
+#~ "A list of the applications to blur, one per line. To get an application "
+#~ "class name, under xorg you can use `xprop|grep WM_CLASS` and paste the "
+#~ "last name here."
+#~ msgstr ""
+#~ "Список приложений для размытия, по одному на строку. Чтобы получить имя "
+#~ "класса приложения, в xorg вы можете использовать `xprop|grep WM_CLASS` и "
+#~ "вставить последнее имя сюда."
