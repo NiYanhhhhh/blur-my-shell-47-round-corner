@@ -1,7 +1,5 @@
 # GNOME Shell Extension - Blur my Shell
 
-[<img src="https://github.com/aunetx/files_utils/raw/master/get_it_on_gnome_extensions.png" height="100" align="right">](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-
 [![License](https://img.shields.io/github/license/aunetx/blur-my-shell)](https://github.com/aunetx/blur-my-shell/blob/master/LICENSE)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/aunetx/blur-my-shell)](https://github.com/aunetx/blur-my-shell/releases/latest)
 [![Weblate project translated](https://hosted.weblate.org/widgets/blur-my-shell/-/blur-my-shell/svg-badge.svg)](https://hosted.weblate.org/engage/blur-my-shell/)
@@ -9,19 +7,12 @@
 
 A GNOME Shell extension that adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
 
-[<img src="https://hosted.weblate.org/widgets/blur-my-shell/-/blur-my-shell/multi-auto.svg" align="right">](https://hosted.weblate.org/engage/blur-my-shell/)
-
 ---
 
-***Notice***
+**Notice**
 
-I (aunetx) am currently quite busy and I won't be able to do a lot of changes in this extension for the following months (probably until fall 2023)... You can consider this extension in low maintenance mode, I will still do important releases (for GNOME 44 etc) but no new features for the moment, and I won't be able to reply to every openend issue (even though I read them all in case).
-
-Especially, consider the application blur to be in alpha state, because it is even broken for me so I don't think it works for anybody else... If someone wants to spend time fixing it, I will gladly merge pull requests. The dash-to-dock blur seems quite broken too, although I don't even know to what extent.
-
-I am deeply sorry about all the problems that may arise, do not hesitate to open pull requests if needed and I will try to find motivation to answer them at some point :)
-
-Sincerely, Aurélien
+[Origin repo](https://github.com/aunetx/blur-my-shell) goes further to gnome 46. This extension moves round corner feature back to gnome 43 (which I'm using in Debian 12).
+It almost works but is a bit buggy.
 
 ---
 
